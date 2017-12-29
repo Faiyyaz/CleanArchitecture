@@ -40,7 +40,7 @@ public class MainPresenter {
     public void getSearchMovies() {
         view.showWait();
         HashMap<String, String> map = new HashMap<>();
-        map.put("apikey", "3940588f");
+        map.put("apikey", "YOUR API KEY HERE");
         map.put("s", searchTerm);
 
         mainCall.getApiData(myDatabase, isConnected, map, new MainApiCall.GetExampleBeanCallback() {
