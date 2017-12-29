@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyAndroidArchitecture</string>
+    <string name="no_internet_available">No internet available</string>
+</resources>
